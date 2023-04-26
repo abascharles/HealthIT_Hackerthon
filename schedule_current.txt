@@ -1,0 +1,36 @@
+# Being the crontab to be installed
+
+#labexec="kubectl exec -it lab-app-app-deployment --container app -n lab-app -- php artisan "
+labexec="/usr/share/nginx/html/lab/artisan "
+
+* * * * * $labexec synch:covid
+
+10 * * * * $labexec send:communication 2>&1
+
+0 18 * * 5 $labexec send:weekly-activity 2>&1
+0 9 * * 1 $labexec send:weekly-backlog 2>&1
+
+0 14 * * * $labexec dispatch:results 2>&1
+0 8 * * * $labexec dispatch:critical 2>&1
+
+10 14 * * * $labexec send:sms 2>&1
+
+5 * * * * $labexec compute:tat5 2>&1
+
+0 3 * * * $labexec input-complete 2>&1
+0 3 * * * $labexec transfer:missing-samples 2>&1
+10 3 * * * $labexec reject:missing-samples 2>&1
+20 3 * * * $labexec batch-complete 2>&1
+
+5 * * * * $labexec synch:patients 2>&1
+0-50/10 * * * * $labexec synch:batches 2>&1
+15 * * * * $labexec synch:worksheets 2>&1
+33 * * * * $labexec synch:updates 2>&1
+#22 * * * * $labexec synch:deletes 2>&1
+
+0-55/5 * * * * $labexec lablog 2>&1
+
+
+
+
+

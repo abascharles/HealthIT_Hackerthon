@@ -1,0 +1,137 @@
+naiexec='php /root/labs/nairobi/artisan '
+kisexec='php /root/labs/kisumu/artisan '
+aluexec='php /root/labs/alupe/artisan '
+cpexec='php /root/labs/cpgh/artisan '
+kuexec='php /root/labs/kutrrh/artisan '
+amrexec='php /root/labs/amref/artisan '
+
+# Amref Crontab
+
+#* * * * * $amrexec synch:covid 2>&1
+
+# Nairobi Crontab
+
+* * * * * $naiexec synch:covid 2>&1
+
+0 18 * * 5 $naiexec send:weekly-activity 2>&1
+0 8 * * 1 $naiexec send:weekly-backlog 2>&1
+
+10 * * * * $naiexec send:communication 2>&1
+0 8 * * * $naiexec edarp:approvesamples 2>&1
+
+0 14 * * * $naiexec dispatch:results 2>&1
+0 9 * * * $naiexec dispatch:critical 2>&1
+55 * * * * $naiexec dispatch:nhrl 2>&1
+0 10 * * * $naiexec dispatch:covid 2>&1
+
+5 * * * * $naiexec compute:tat5 2>&1
+
+10 14 * * * $naiexec send:sms 2>&1
+
+0 3 * * * $naiexec input-complete 2>&1
+0 3 * * * $naiexec transfer:missing-samples 2>&1
+15 3 * * * $naiexec batch-complete 2>&1
+#10 3 * * * $naiexec reject:missing-samples 2>&1
+
+5 * * * * $naiexec synch:patients 2>&1
+0-50/10 * * * * $naiexec synch:batches 2>&1
+
+15 * * * * $naiexec synch:worksheets 2>&1
+
+33 * * * * $naiexec synch:updates 2>&1
+
+0-55/5 * * * * $naiexec lablog 2>&1
+
+# Kisumu Crontab
+
+* * * * * $kisexec synch:covid
+
+10 * * * * $kisexec send:communication 2>&1
+#0 8 * * * $kisexec edarp:approvesamples 2>&1
+
+0 18 * * 5 $kisexec send:weekly-activity 2>&1
+0 8 * * 1 $kisexec send:weekly-backlog 2>&1
+
+0 14 * * * $kisexec dispatch:results 2>&1
+0 9 * * * $kisexec dispatch:critical 2>&1
+55 * * * * $kisexec dispatch:nhrl 2>&1
+
+10 14 * * * $kisexec send:sms 2>&1
+
+5 * * * * $kisexec compute:tat5 2>&1
+
+0 3 * * * $kisexec input-complete 2>&1
+0 3 * * * $kisexec transfer:missing-samples 2>&1
+10 3 * * * $kisexec reject:missing-samples 2>&1
+20 3 * * * $kisexec batch-complete 2>&1
+
+5 * * * * $kisexec synch:patients 2>&1
+
+0-50/10 * * * * $kisexec synch:batches 2>&1
+
+15 * * * * $kisexec synch:worksheets 2>&1
+
+33 * * * * $kisexec synch:updates 2>&1
+
+#22 * * * * $kisexec synch:deletes 2>&1
+
+0-55/5 * * * * $kisexec lablog 2>&1
+
+# Alupe Crontab
+
+* * * * * $aluexec synch:covid
+10 * * * * $aluexec send:communication 2>&1
+
+0 18 * * 5 $aluexec send:weekly-activity 2>&1
+0 8 * * 1 $aluexec send:weekly-backlog 2>&1
+
+0 14 * * * $aluexec dispatch:results 2>&1
+0 9 * * * $aluexec dispatch:critical 2>&1
+0 10 * * * $naiexec dispatch:covid 2>&1
+
+10 14 * * * $aluexec send:sms 2>&1
+
+5 * * * * $aluexec compute:tat5 2>&1
+
+0 3 * * * $aluexec input-complete 2>&1
+0 3 * * * $aluexec transfer:missing-samples 2>&1
+10 3 * * * $aluexec reject:missing-samples 2>&1
+20 3 * * * $aluexec batch-complete 2>&1
+5 * * * * $aluexec synch:patients 2>&1
+0-50/10 * * * * $aluexec synch:batches 2>&1
+15 * * * * $aluexec synch:worksheets 2>&1
+33 * * * * $aluexec synch:updates 2>&1
+#22 * * * * $aluexec synch:deletes 2>&1
+
+0-55/5 * * * * $aluexec lablog 2>&1
+
+
+# CPGH Crontab
+
+* * * * * $cpexec synch:covid
+
+10 * * * * $cpexec send:communication 2>&1
+10 * * * * $cpexec send:communication 2>&1
+
+0 18 * * 5 $cpexec send:weekly-activity 2>&1
+0 8 * * 1 $cpexec send:weekly-backlog 2>&1
+
+0 14 * * * $cpexec dispatch:results 2>&1
+0 9 * * * $cpexec dispatch:critical 2>&1
+
+10 14 * * * $cpexec send:sms 2>&1
+
+5 * * * * $cpexec compute:tat5 2>&1
+
+0 3 * * * $cpexec input-complete 2>&1
+0 3 * * * $cpexec transfer:missing-samples 2>&1
+10 3 * * * $cpexec reject:missing-samples 2>&1
+20 3 * * * $cpexec batch-complete 2>&1
+
+5 * * * * $cpexec synch:patients 2>&1
+0-50/10 * * * * $cpexec synch:batches 2>&1
+15 * * * * $cpexec synch:worksheets 2>&1
+33 * * * * $cpexec synch:updates 2>&1
+#22 * * * * $cpexec synch:deletes 2>&1
+
+0-55/5 * * * * $cpexec lablog 2>&1

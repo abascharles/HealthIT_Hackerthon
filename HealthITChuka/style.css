@@ -1,0 +1,84 @@
+body {
+  background-color: #F5F5F5;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-size: 36px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+p {
+  font-size: 20px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #CCC;
+  margin: 30px auto;
+  width: 80%;
+}
+
+.login-box {
+  background-color: #FFF;
+  border: 1px solid #CCC;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  padding: 20px;
+  width: 60%;
+  height: 100%;
+}
+
+label {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 0 5px;
+}
+
+input[type="text"],
+input[type="phone"],
+textarea,
+select {
+  border: 1px solid #CCC;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 100%;
+}
+
+input[type="text"]:focus,
+input[type="phone"]:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border-color: #00BFFF;
+  box-shadow: 0 0 10px rgba(0, 191, 255, 0.3);
+}
+
+select {
+  height: 40px;
+}
+
+button[type="submit"] {
+  background-color: #00ff88;
+  border: none;
+  border-radius: 4px;
+  color: #FFF;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 10px 20px;
+}
+
+button[type="submit"]:hover {
+  background-color: #00b7ff;
+}

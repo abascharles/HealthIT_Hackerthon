@@ -1,0 +1,1 @@
+<p> Find attached the {{ $type }} no data report. <p/>

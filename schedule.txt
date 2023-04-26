@@ -1,0 +1,33 @@
+# Being the crontab to be installed
+
+#30 23 * * * php /usr/share/nginx/html/lab/artisan match:patients eid >> /usr/share/nginx/html/lab/storage/app/test/match_eid.txt  2>&1
+#30 23 * * * php /usr/share/nginx/html/lab/artisan match:batches eid >> /usr/share/nginx/html/lab/storage/app/test/match_eid.txt  2>&1
+#30 23 * * * php /usr/share/nginx/html/lab/artisan match:patients vl >> /usr/share/nginx/html/lab/storage/app/test/match_vl.txt  2>&1
+#30 23 * * * php /usr/share/nginx/html/lab/artisan match:batches vl >> /usr/share/nginx/html/lab/storage/app/test/match_vl.txt  2>&1
+
+0 3 * * * php /usr/share/nginx/html/lab/artisan input-complete eid 2>&1
+0 3 * * * php /usr/share/nginx/html/lab/artisan input-complete vl 2>&1
+
+0-55/5 * * * * php /usr/share/nginx/html/lab/artisan synch:patients eid 2>&1
+0-55/5 * * * * php /usr/share/nginx/html/lab/artisan synch:patients vl 2>&1
+
+0-55/5 * * * * php /usr/share/nginx/html/lab/artisan synch:batches eid 2>&1
+0-55/5 * * * * php /usr/share/nginx/html/lab/artisan synch:batches vl 2>&1
+
+0-55/5 * * * * php /usr/share/nginx/html/lab/artisan synch:worksheets eid 2>&1
+0-55/5 * * * * php /usr/share/nginx/html/lab/artisan synch:worksheets vl 2>&1
+
+
+0-55/5 * * * * php /usr/share/nginx/html/lab/artisan lablog eid 2>&1
+0-55/5 * * * * php /usr/share/nginx/html/lab/artisan lablog vl 2>&1
+
+
+#33 * * * * php /usr/share/nginx/html/lab/artisan synch:updates eid 2>&1
+#33 * * * * php /usr/share/nginx/html/lab/artisan synch:updates vl 2>&1
+
+#22 * * * * php /usr/share/nginx/html/lab/artisan synch:deletes eid 2>&1
+#22 * * * * php /usr/share/nginx/html/lab/artisan synch:deletes vl 2>&1
+
+
+
+

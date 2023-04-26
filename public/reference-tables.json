@@ -1,0 +1,370 @@
+{
+    "results": [
+        {
+            "id": 1,
+            "name": "Negative",
+            "alias": "NEG",
+            "name_colour": "<strong><div style='color: #00ff00;'>Negative<\/div><\/strong>"
+        },
+        {
+            "id": 2,
+            "name": "Positive",
+            "alias": "POS",
+            "name_colour": "<strong><div style='color: #ff0000;'>Positive<\/div><\/strong>"
+        },
+        {
+            "id": 3,
+            "name": "Failed",
+            "alias": "",
+            "name_colour": "<strong><div style='color: #cccc00;'>Failed<\/div><\/strong>"
+        },
+        {
+            "id": 4,
+            "name": "Unknown",
+            "alias": "",
+            "name_colour": "<strong><div style='color: #cccc00;'>Unknown<\/div><\/strong>"
+        },
+        {
+            "id": 5,
+            "name": "Collect New Sample",
+            "alias": "",
+            "name_colour": "<strong><div style='color: #cccc00;'>Collect New Sample<\/div><\/strong>"
+        }
+    ],
+    "receivedstatus": [
+        {
+            "id": 1,
+            "name": "Accepted"
+        },
+        {
+            "id": 2,
+            "name": "Rejected"
+        }
+    ],
+    "covid_justifications": [
+        {
+            "id": 1,
+            "name": "Contact with confirmed case"
+        },
+        {
+            "id": 2,
+            "name": "Presented at health facility"
+        },
+        {
+            "id": 3,
+            "name": "Surveillance"
+        },
+        {
+            "id": 4,
+            "name": "Point of entry detection"
+        },
+        {
+            "id": 5,
+            "name": "Repatriation"
+        },
+        {
+            "id": 6,
+            "name": "Other"
+        },
+        {
+            "id": 7,
+            "name": "Surveillance and Quarantine"
+        },
+        {
+            "id": 8,
+            "name": "Recent travel"
+        },
+        {
+            "id": 9,
+            "name": "Health Care Worker"
+        },
+        {
+            "id": 10,
+            "name": "Truck Driver"
+        },
+        {
+            "id": 11,
+            "name": "Food Handlers"
+        }
+    ],
+    "covid_sample_types": [
+        {
+            "id": 1,
+            "name": "Nasopharygneal & Oropharygneal swabs"
+        },
+        {
+            "id": 2,
+            "name": "Nasopharygneal swab in UTM"
+        },
+        {
+            "id": 3,
+            "name": "Oropharygneal swab in UTM"
+        },
+        {
+            "id": 4,
+            "name": "Serum"
+        },
+        {
+            "id": 5,
+            "name": "Sputum"
+        },
+        {
+            "id": 6,
+            "name": "Tracheal Aspirate"
+        },
+        {
+            "id": 7,
+            "name": "Other"
+        }
+    ],
+    "covid_symptoms": [
+        {
+            "id": 1,
+            "name": "Fever \/ Chills"
+        },
+        {
+            "id": 2,
+            "name": "Shortness of Breath"
+        },
+        {
+            "id": 3,
+            "name": "Muscular Pain"
+        },
+        {
+            "id": 4,
+            "name": "General Weakness"
+        },
+        {
+            "id": 5,
+            "name": "Diarrhoea"
+        },
+        {
+            "id": 6,
+            "name": "Chest Pain"
+        },
+        {
+            "id": 7,
+            "name": "Cough"
+        },
+        {
+            "id": 8,
+            "name": "Nausea \/ vomiting"
+        },
+        {
+            "id": 9,
+            "name": "Abdominal Pain"
+        },
+        {
+            "id": 10,
+            "name": "Sore Throat"
+        },
+        {
+            "id": 11,
+            "name": "Headache"
+        },
+        {
+            "id": 12,
+            "name": "Joint Pain"
+        },
+        {
+            "id": 13,
+            "name": "Runny Nose"
+        },
+        {
+            "id": 14,
+            "name": "Irritability \/ Confusion"
+        }
+    ],
+    "covid_test_types": [
+        {
+            "id": 1,
+            "name": "Initial Test"
+        },
+        {
+            "id": 2,
+            "name": "1st Follow Up"
+        },
+        {
+            "id": 3,
+            "name": "2nd Follow Up"
+        },
+        {
+            "id": 4,
+            "name": "3rd Follow Up"
+        },
+        {
+            "id": 5,
+            "name": "4th Follow Up"
+        },
+        {
+            "id": 6,
+            "name": "5th Follow Up"
+        },
+        {
+            "id": 7,
+            "name": "Not Specified"
+        },
+        {
+            "id": 8,
+            "name": "Repeat"
+        }
+    ],
+    "health_statuses": [
+        {
+            "id": 1,
+            "name": "Stable"
+        },
+        {
+            "id": 2,
+            "name": "Severely ill"
+        },
+        {
+            "id": 3,
+            "name": "Dead"
+        },
+        {
+            "id": 4,
+            "name": "Unknown"
+        }
+    ],
+    "identifier_types": [
+        {
+            "id": 1,
+            "name": "National ID"
+        },
+        {
+            "id": 2,
+            "name": "Passport No"
+        },
+        {
+            "id": 3,
+            "name": "Foreign ID"
+        },
+        {
+            "id": 4,
+            "name": "National ID of parent"
+        },
+        {
+            "id": 5,
+            "name": "Passport No of parent"
+        },
+        {
+            "id": 6,
+            "name": "Foreign ID of parent"
+        },
+        {
+            "id": 7,
+            "name": "Other"
+        }
+    ],
+    "observed_signs": [
+        {
+            "id": 1,
+            "name": "Pharyngeal exudate"
+        },
+        {
+            "id": 2,
+            "name": "Coma"
+        },
+        {
+            "id": 3,
+            "name": "Abnormal lung X-Ray findings"
+        },
+        {
+            "id": 4,
+            "name": "Conjunctival injection"
+        },
+        {
+            "id": 5,
+            "name": "Dyspnea \/ tachypnea"
+        },
+        {
+            "id": 6,
+            "name": "Seizure"
+        },
+        {
+            "id": 7,
+            "name": "Abnormal lung auscultation"
+        }
+    ],
+    "underlying_conditions": [
+        {
+            "id": 1,
+            "name": "Pregnancy (trimester 1)"
+        },
+        {
+            "id": 2,
+            "name": "Pregnancy (trimester 2)"
+        },
+        {
+            "id": 3,
+            "name": "Pregnancy (trimester 3)"
+        },
+        {
+            "id": 4,
+            "name": "Post-partum (&lt; 6 weeks)"
+        },
+        {
+            "id": 5,
+            "name": "Cardiovascular disease, including hypertension"
+        },
+        {
+            "id": 6,
+            "name": "Immunodeficiency, including HIV"
+        },
+        {
+            "id": 7,
+            "name": "Diabetes"
+        },
+        {
+            "id": 8,
+            "name": "Renal disease"
+        },
+        {
+            "id": 9,
+            "name": "Liver disease"
+        },
+        {
+            "id": 10,
+            "name": "Chronic lung disease"
+        },
+        {
+            "id": 11,
+            "name": "Chronic neurological or neuromuscular disease"
+        },
+        {
+            "id": 12,
+            "name": "Malignancy"
+        },
+        {
+            "id": 13,
+            "name": "Smoking"
+        }
+    ],
+    "nationalities": [
+        {
+            "id": 1,
+            "name": "Kenyan"
+        },
+        {
+            "id": 2,
+            "name": "African"
+        },
+        {
+            "id": 3,
+            "name": "European"
+        },
+        {
+            "id": 4,
+            "name": "Asian"
+        },
+        {
+            "id": 5,
+            "name": "American"
+        },
+        {
+            "id": 6,
+            "name": "Other"
+        }
+    ]
+}

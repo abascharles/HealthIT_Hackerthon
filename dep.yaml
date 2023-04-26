@@ -1,0 +1,51 @@
+apiVersion: apps/v1
+kind: Deployment
+
+
+metadata:
+  name: lab-app-app-deployment
+  labels:
+    app: lab-app
+
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      name: app-pod
+      app: lab-app
+
+  template:
+    metadata:
+      name: app-pod
+      labels:
+        name: app-pod
+        app: lab-app
+    spec:
+      containers:
+      - name: redis
+        image: redis
+        imagePullPolicy: Never
+        args: ["--appendonly yes"]
+      - name: app
+        image: mwendakith/lab:1.6
+        env:
+        - name: http_proxy
+          value: "http://10.230.50.110:3128"
+        - name: https_proxy
+          value: "http://10.230.50.110:3128"
+        volumeMounts:
+          - mountPath: /var/www/lab
+            name: app-data
+        ports:
+          - containerPort: 9000
+
+        lifecycle:
+          postStart:
+            exec:
+              command: ["/bin/sh", "-c", "composer install && php artisan key:generate && chmod 0777 -R /var/www/*/storage &&  chmod 0777 -R /var/www/*/public &&  chmod 0777 -R /var/www/*/vendor &&  chmod 0777 -R /var/www/*/bootstrap  "]
+
+      volumes:
+        - name: app-data
+          hostPath:
+            path: /var/lib/docker/volumes/lab_myapp/_data/
+            type: Directory

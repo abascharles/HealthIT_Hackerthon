@@ -1,0 +1,6 @@
+Load the sql first:
+	- complete.sql
+	- facilitys.sql
+Run the migrations
+Run the migrations for the other folders
+Run the seeds (db:seed)

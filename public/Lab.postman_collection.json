@@ -1,0 +1,595 @@
+{
+	"info": {
+		"_postman_id": "aa0573a0-8052-4508-8830-4616f86bab90",
+		"name": "Lab",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "EID Partial Request",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					},
+					{
+						"key": "apikey",
+						"value": "ZXmknmaI9MfE642"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "mflCode",
+							"value": "10263",
+							"type": "text"
+						},
+						{
+							"key": "patient_identifier",
+							"value": "10263-kljsdjj",
+							"type": "text"
+						},
+						{
+							"key": "dob",
+							"value": "2018-01-01",
+							"type": "text"
+						},
+						{
+							"key": "datecollected",
+							"value": "2018-02-05",
+							"type": "text"
+						},
+						{
+							"key": "sex",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "feeding",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "pcrtype",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "regimen",
+							"value": "16",
+							"type": "text"
+						},
+						{
+							"key": "entry_point",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "mother_prophylaxis",
+							"value": "21",
+							"type": "text"
+						},
+						{
+							"key": "mother_last_result",
+							"value": "40",
+							"type": "text"
+						},
+						{
+							"key": "spots",
+							"value": "5",
+							"type": "text"
+						},
+						{
+							"key": "mother_age",
+							"value": "24",
+							"type": "text"
+						},
+						{
+							"key": "ccc_no",
+							"value": "654654",
+							"type": "text"
+						},
+						{
+							"key": "lab",
+							"value": "3",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://lab.test.nascop.org/api/eid",
+					"protocol": "http",
+					"host": [
+						"lab",
+						"test",
+						"nascop",
+						"org"
+					],
+					"path": [
+						"api",
+						"eid"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EID Complete Request",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					},
+					{
+						"key": "apikey",
+						"value": "ZXmknmaI9MfE642"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "mflCode",
+							"value": "10263",
+							"type": "text"
+						},
+						{
+							"key": "patient_identifier",
+							"value": "10263-kljkjhaka",
+							"type": "text"
+						},
+						{
+							"key": "dob",
+							"value": "2018-01-01",
+							"type": "text"
+						},
+						{
+							"key": "datecollected",
+							"value": "2018-02-06",
+							"type": "text"
+						},
+						{
+							"key": "datereceived",
+							"value": "2018-03-09",
+							"type": "text"
+						},
+						{
+							"key": "sex",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "feeding",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "pcrtype",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "regimen",
+							"value": "16",
+							"type": "text"
+						},
+						{
+							"key": "entry_point",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "mother_prophylaxis",
+							"value": "21",
+							"type": "text"
+						},
+						{
+							"key": "spots",
+							"value": "5",
+							"type": "text"
+						},
+						{
+							"key": "mother_last_result",
+							"value": "450",
+							"type": "text"
+						},
+						{
+							"key": "mother_age",
+							"value": "24",
+							"type": "text"
+						},
+						{
+							"key": "ccc_no",
+							"value": "654654",
+							"type": "text"
+						},
+						{
+							"key": "lab",
+							"value": "3",
+							"type": "text"
+						},
+						{
+							"key": "receivedstatus",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "datetested",
+							"value": "2018-04-01",
+							"type": "text"
+						},
+						{
+							"key": "datedispatched",
+							"value": "2018-04-05",
+							"type": "text"
+						},
+						{
+							"key": "result",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "specimenlabelID",
+							"value": "89734b5",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://lab.test.nascop.org/api/eid_complete",
+					"protocol": "http",
+					"host": [
+						"lab",
+						"test",
+						"nascop",
+						"org"
+					],
+					"path": [
+						"api",
+						"eid_complete"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "VL Partial Request",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					},
+					{
+						"key": "apikey",
+						"value": "ZXmknmaI9MfE642"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "mflCode",
+							"value": "10263",
+							"type": "text"
+						},
+						{
+							"key": "patient_identifier",
+							"value": "10263-kljsd",
+							"type": "text"
+						},
+						{
+							"key": "dob",
+							"value": "2018-01-01",
+							"type": "text"
+						},
+						{
+							"key": "datecollected",
+							"value": "2018-02-05",
+							"type": "text"
+						},
+						{
+							"key": "sex",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "prophylaxis",
+							"value": "15",
+							"type": "text"
+						},
+						{
+							"key": "regimenline",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "sampletype",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "justification",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "pmtct",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://lab.test.nascop.org/api/vl",
+					"protocol": "http",
+					"host": [
+						"lab",
+						"test",
+						"nascop",
+						"org"
+					],
+					"path": [
+						"api",
+						"vl"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "VL Complete Request",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					},
+					{
+						"key": "apikey",
+						"value": "ZXmknmaI9MfE642"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "mflCode",
+							"value": "10263",
+							"type": "text"
+						},
+						{
+							"key": "patient_identifier",
+							"value": "10263-klj",
+							"type": "text"
+						},
+						{
+							"key": "dob",
+							"value": "2008-01-01",
+							"type": "text"
+						},
+						{
+							"key": "datecollected",
+							"value": "2018-02-05",
+							"type": "text"
+						},
+						{
+							"key": "datereceived",
+							"value": "2018-03-05",
+							"type": "text"
+						},
+						{
+							"key": "sex",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "prophylaxis",
+							"value": "15",
+							"type": "text"
+						},
+						{
+							"key": "regimenline",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "sampletype",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "justification",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "pmtct",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "datetested",
+							"value": "2018-05-02",
+							"type": "text"
+						},
+						{
+							"key": "datedispatched",
+							"value": "2018-05-05",
+							"type": "text"
+						},
+						{
+							"key": "receivedstatus",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "result",
+							"value": "450",
+							"type": "text"
+						},
+						{
+							"key": "specimenlabelID",
+							"value": "jfk",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://lab.test.nascop.org/api/vl_complete",
+					"protocol": "http",
+					"host": [
+						"lab",
+						"test",
+						"nascop",
+						"org"
+					],
+					"path": [
+						"api",
+						"vl_complete"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch Eid Results",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					},
+					{
+						"key": "apikey",
+						"value": "ZXmknmaI9MfE642"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "test",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "start_date",
+							"value": "2018-01-01",
+							"type": "text"
+						},
+						{
+							"key": "end_date",
+							"value": "2018-06-06",
+							"type": "text"
+						},
+						{
+							"key": "date_dispatched_start",
+							"value": "2018-01-01",
+							"type": "text"
+						},
+						{
+							"key": "date_dispatched_end",
+							"value": "2018-06-06",
+							"type": "text"
+						},
+						{
+							"key": "patient_id",
+							"value": "10263-kljsd,10263-klj",
+							"type": "text"
+						},
+						{
+							"key": "facility_code",
+							"value": "10263",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://lab.test.nascop.org/api/function",
+					"protocol": "http",
+					"host": [
+						"lab",
+						"test",
+						"nascop",
+						"org"
+					],
+					"path": [
+						"api",
+						"function"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch VL Results",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					},
+					{
+						"key": "apikey",
+						"value": "ZXmknmaI9MfE642"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "test",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "start_date",
+							"value": "2018-01-01",
+							"type": "text"
+						},
+						{
+							"key": "end_date",
+							"value": "2018-06-06",
+							"type": "text"
+						},
+						{
+							"key": "date_dispatched_start",
+							"value": "2018-01-01",
+							"type": "text"
+						},
+						{
+							"key": "date_dispatched_end",
+							"value": "2018-06-06",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://lab.test.nascop.org/api/function",
+					"protocol": "http",
+					"host": [
+						"lab",
+						"test",
+						"nascop",
+						"org"
+					],
+					"path": [
+						"api",
+						"function"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

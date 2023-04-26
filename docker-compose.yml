@@ -1,0 +1,87 @@
+version: "3.2"
+services:
+  app:
+    image: mwendakith/lab:1.6
+    #build:
+    #  context: ./
+    #  dockerfile: Dockerfile
+    volumes:
+      -  type: volume
+         source:  myapp
+         target: /var/www/lab
+    working_dir: /var/www/lab
+    deploy:
+      restart_policy:
+        condition: on-failure
+      #placement:
+      #  constraints: [node.role == worker]
+    networks:
+      - webnet
+
+  web:
+    image: mwendakith/nginx:latest
+    #build:
+    #  context: ./
+    #  dockerfile: web.dockerfile
+    volumes:
+      -  type: volume
+         source:  myapp
+         target: /var/www/lab
+    #working_dir: /var/www/lab
+    deploy:
+      restart_policy:
+        condition: on-failure
+      #placement:
+      #  constraints: [node.role == worker]
+    ports:
+      - 8080:80
+    networks:
+      - webnet
+
+  smtp:
+    image: namshi/smtp:latest
+    ports:
+      - "25:25"
+    deploy:
+      restart_policy:
+        condition: on-failure
+      #placement:
+      #  constraints: [node.role == worker]
+    environment:
+      MAILNAME: 
+    networks:
+      - webnet
+
+  visualizer:
+    image: dockersamples/visualizer:stable
+    ports:
+      - "4000:8080"
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock"
+    deploy:
+      restart_policy:
+        condition: on-failure
+      placement:
+        constraints: [node.role == manager]
+    networks:
+      - webnet
+
+  redis:
+    image: redis
+    ports:
+      - "10000:6379"
+    volumes:
+      - "redis_data:/data"
+    deploy:
+      placement:
+        constraints: [node.role == manager]
+    command: redis-server --appendonly yes
+    networks:
+      - webnet
+
+networks:
+  webnet: 
+volumes:
+  myapp: 
+  #  driver: vsphere:latest
+  redis_data:

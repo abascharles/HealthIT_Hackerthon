@@ -1,0 +1,70 @@
+version: "3.2"
+services:
+  app:
+    image: mwendakith/lab:latest
+    #build:
+    #  context: ./
+    #  dockerfile: Dockerfile
+    working_dir: /var/www/lab
+    volumes:
+      - .:/var/www/lab
+      #-  type: volume
+      #   #source:  myapp
+      #   source:  ./
+      #   target: /var/www/lab
+    ports:
+      - 8181:8181
+    deploy:
+      restart_policy:
+        condition: on-failure
+    networks:
+      - webnet
+
+  web:
+    image: mwendakith/nginx:latest
+    #build:
+    #  context: ./
+    #  dockerfile: web.dockerfile
+    working_dir: /var/www/lab
+    volumes:
+      - ./:/var/www/lab
+      #- myapp:/var/www/lab
+      #-  type: volume
+         #source:  myapp
+      #   source:  ./
+      #   target: /var/www/lab
+    ports:
+      - 8080:80
+    networks:
+      - webnet
+
+  visualizer:
+    image: dockersamples/visualizer:stable
+    ports:
+      - "4000:8080"
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock"
+    deploy:
+      placement:
+        constraints: [node.role == manager]
+    networks:
+      - webnet
+
+  redis:
+    image: redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - "redis_data:/data"
+    deploy:
+      placement:
+        constraints: [node.role == manager]
+    command: redis-server --appendonly yes
+    networks:
+      - webnet
+
+networks:
+  webnet: 
+volumes:
+  myapp: 
+  redis_data:

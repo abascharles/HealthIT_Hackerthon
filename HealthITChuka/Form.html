@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Desk</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="login-box">
+          <h1>Report a Problem</h1>
+          <p>Simply create a ticket below.A technician will respond promptly to your issue</p>
+          <br>
+          <hr>
+          <br>
+            <form action="mailto:help@chukafreshdevs.on.spiceworks.com" method="post" enctype="text/plain">
+            <label for="summary"></label>
+            <input type="text" id="summary" name="summary" placeholder="Summary (required)" required>
+            <label for="description"></label>
+            <textarea name="textarea" id="textarea" cols="5" rows="20" placeholder="Description (required)"></textarea>
+            <label for="category"></label>
+            <select id="category" name="category" required>
+              <option value="" disabled selected>Category (required)</option>
+              <option value="Hardware">EID/VL</option>
+              <!-- <option value="Software">Software</option>
+              <option value="Networking">Networking</option> -->
+              </select><br>
+              <input type="phone" id="phone_no" name="phone no" placeholder="Phone (required)">
+              <!-- <label for="priority">Priority:</label><br>
+              <select id="priority" name="priority" required>
+              <option value="" disabled selected></option>
+              <option value="High">High</option>
+              <option value="Medium">Medium</option>
+              <option value="Low">Low</option>
+              </select><br> -->
+              <!-- <label for="attachment">Attachment:</label><br> -->
+              <input type="file" id="attachment" name="attachment"><br><br>
+      
+          <button type="submit" class="btn btn-primary">Submit Problem</button>
+          </form>
+    </div>
+</body>
+</html>

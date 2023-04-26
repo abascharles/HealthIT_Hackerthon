@@ -1,0 +1,540 @@
+NO,MFL Code,Facility,COUNTY
+1,11933,Apu Dispensary,ISIOLO
+2,12029,Garbatulla District Hospital,Isiolo
+3,12094,Isiolo District Hospital,Isiolo
+4,12514,Merti Health Centre,ISIOLO
+5,13486,Arombe Dispensary,MIGORI
+6,13488,Asumbi Health Centre,Homa Bay
+7,13492,Awendo Sub-District Hospital,Migori
+8,13583,God Kwer Dispensary,MIGORI
+9,13589,Got Kojowi Health Centre,Homa Bay
+10,13604,Holy Family Oriang Mission Dispensary,Homa Bay
+11,13606,Homa Hills Health Centre,Homa Bay
+12,13608,Homa Bay Teaching and Referral Hospital,Homa Bay
+13,13625,Isibania Sub-District Hospital,Migori
+14,13638,Kabondo Sub Hospital,Homa Bay
+15,13653,Kandiege Sub-District Hospital,Homa Bay
+16,13656,Karungu Sub-County Hospital,Migori
+17,13663,Kegonga Sub Hospital,Migori
+18,13667,Kendu Adventist Hospital,Homa Bay
+19,13668,Kendu Sub-District Hospital,Homa Bay
+20,13701,Kisegi Sub-District Hospital,Homa Bay
+21,13705,Kitare Health Centre,Homa Bay
+22,13726,Kuria District Hospital,Migori
+23,13740,Lwala Community Hospital,MIGORI
+24,13745,Macalder Sub-County Hospital,Migori
+25,13751,Magina Health Centre,Homa Bay
+26,13753,Magunga Health Centre,Homa Bay
+27,13777,Marindi Sub Referral Hospital,Homa Bay
+28,13778,Mariwa Health Centre,MIGORI
+29,13793,Matoso Health Clinic,Migori
+30,13798,Mbita District Hospital,Homa Bay
+31,13805,Migori Referal Hospital,Migori
+32,13812,Miriu Health Centre,Homa Bay
+33,13813,Mirogi Health Centre,Homa Bay
+34,13833,Muhuru Sub-County Hospital,Migori
+35,13841,Ndhiwa District Hospital,Homa Bay
+36,13843,Ndiru Health Centre,Homa Bay
+37,13858,Ntimaru Sub Hospital,Migori
+38,13875,Nyagoro Health Centre,Homa Bay
+39,13897,Nyamaraga Sub Hospital,Migori
+40,13920,Nyandiwa Dispensary,Homa Bay
+41,13967,Ogongo Sub-District Hospital,Homa Bay
+42,13969,Ogwedhi Health Centre,MIGORI
+43,13975,Olasi Dispensary,MIGORI
+44,13989,Ongo Health Centre,MIGORI
+45,14002,Othoro Sub District Hospital (Rachuonyo),Homa Bay
+46,14011,Pala Health Centre,Homa Bay
+47,14022,Rachuonyo District Hospital,Homa Bay
+48,14036,Rangwe Sub-District Hospital,Homa Bay
+49,14058,Rongo Sub Hospital,Migori
+50,14075,Sena Health Centre,Homa Bay
+51,14078,Shirikisho Health Centre,Homa Bay
+52,14082,Sibuoche Dispensary,MIGORI
+53,14097,Sony Medical Centre,Migori
+54,14098,Sori Lakeside Nursing and Maternity Home,MIGORI
+55,14103,St Camillus Mission Hospital,Migori
+56,14110,St Joseph Mission Hospital,Migori
+57,14121,St Monica Rapogi Health Centre,Migori
+58,14130,Suba District Hospital,Homa Bay
+59,14150,Tom Mboya Memorial Health Centre,Homa Bay
+60,14161,Uriri Sub Hospital,Migori
+61,14168,Wagwe Health Centre,Homa Bay
+62,14178,AIC Litein Mission Hospital,Kericho
+63,14706,Kapkatet District Hospital,Kericho
+64,14831,Kericho District Hospital,Kericho
+65,14899,Kipketer Dispensary,KERICHO
+66,15074,Londiani District Hospital,Kericho
+67,15761,Unilever Central Hospital,KERICHO
+68,16771,Ndisi Dispensary,Homa Bay
+69,14003,Othoro Sub District Hospital (Migori),MIGORI
+70,13532,Dede Dispensary,MIGORI
+71,14009,Oyani Health Centre,MIGORI
+72,11512,Lamu Hospital,Lamu
+73,11649,Mpeketoni Sub-County Hospital,Lamu
+74,12291,Kibwezi Sub Hospital,Makueni
+75,12306,Kikoko Mission Hospital,Makueni
+76,12314,Kilungu Sub Hospital,Makueni
+77,12455,Makindu Sub Hospital,Makueni
+78,12457,Makueni Referral Hospital,Makueni
+79,12472,Marsabit Refferal Hospital,Marsabit
+80,12508,Mbooni Sub Hospital,Makueni
+81,12544,Moyale Sub-County Referral Hospital,Marsabit
+82,12547,Mtito Andei Sub Hospital,Makueni
+83,12692,Nzeveni Health Centre,Makueni
+84,12777,Sultan Hamud Sub Hospital,Makueni
+85,13452,Wajir Referral Hospital,Wajir
+86,14321,Chemolingot Sub Hospital,Baringo
+87,14432,Eldama Ravine District Hospital,Baringo
+88,14579,Kakuma Refugee Hospital,Turkana
+89,14607,Baringo Referral Hospital,Baringo
+90,14609,Kabartonjo District Hospital,Baringo
+91,14655,Kakuma Mission Hospital,Turkana
+92,14701,Kapenguria Referral Hospital,West Pokot
+93,14728,Kapkoros Sub hospital,Bomet
+94,14741,Kaplong Hospital,Bomet
+95,15049,Lodwar Referral Hospital,Turkana
+96,15059,Lokichogio (AIC) Health Centre,Turkana
+97,15077,Longisa District Hospital,Bomet
+98,15138,Marigat Sub District Hospital,Baringo
+99,15195,Mogogosiek Health Centre,Bomet
+100,15565,Sigor Sub-District Hospital,Bomet
+101,15619,Sotik Health Centre,Bomet
+102,15634,St Catherine Napetet Dispensary,Turkana
+103,15719,Tenwek Mission Hospital,Bomet
+104,16204,Tumaini Medical Clinic (Marsabit),Marsabit
+105,17549,AHF/TSA Kithituni Clinic,Makueni
+106,18260,Emali Model Health Centre,Makueni
+107,20005,Mogotio Baringo Sub Hospital,Baringo
+108,12147,Kalawa Model Health Centre,MAKUENI
+109,12142,Kalacha Sub County Referral Hospital (Chalbi),MARSABIT
+110,18856,Laisamis Sub county Referral Hospital(Marsabit South),MARSABIT
+111,14436,Elelea Health Centre,TURKANA
+112,21345,Lokichar Health Centre,TURKANA
+113,20826,Lorugum Health Centre,TURKANA
+114,15062,Lokitaung Sub County Hospital,TURKANA
+115,21335,Kakuma Health Centre,TURKANA
+116,14643,Kaikor Health Centre,TURKANA
+117,12485,Matiliku Sub County Hospital,MAKUENI
+118,12787,Tawa Sub-County Hospial,MAKUENI
+119,12341,Kisau Sub County Hospital,MAKUENI
+120,13468,Ahero Hospital,Kisumu
+121,13518,Bunde Dispensary,Kisumu
+122,13521,Chemelil GOK Health Center,Kisumu
+123,13522,Chemelil Sugar Health Centre,Kisumu
+124,13528,Chulaimbo Hospital,Kisumu
+125,13609,Hongo Ogosa Health Center,Kisumu
+126,13647,Gita Sub Hospital,Kisumu
+127,13652,Kandege Health Center,Kisumu
+128,13657,Katito Sub Hospital,Kisumu
+129,13704,Kisumu Hospital,Kisumu
+130,13709,Kodiaga Prison Health Centre,Kisumu
+131,13714,Kombewa Refferal Hospital,Kisumu
+132,13738,Lumumba  Sub-County Hospital,Kisumu
+133,13781,Maseno Mission Hospital,Kisumu
+134,13782,Maseno University Health Centre,Kisumu
+135,13785,Masogo Sub Hospital,Kisumu
+136,13807,Migosi Sub Hospital,Kisumu
+137,13831,Muhoroni  Hospital,Kisumu
+138,13864,Nyabondo Mission Hospital,Kisumu
+139,13880,Nyahera Sub District Hospital,Kisumu
+140,13899,Nyamarimba Sub Hospital,Kisumu
+141,13921,Nyakach Hospital,Kisumu
+142,13923,Nyangande Health Center,Kisumu
+143,13928,Nyang'oma Sub Hospital,Kisumu
+144,13939,Jaramogi Oginga Odinga Teaching & Referal Hospital,Kisumu
+145,13954,Ober Kamoth Sub Hospital,Kisumu
+146,14017,Port Florence Hospital,Kisumu
+147,14020,Rabuor Sub Hospital,Kisumu
+148,14027,Railways Dispensary (Kisumu),Kisumu
+149,14086,Sigoti Health Centre,Kisumu
+150,14096,Sondu Health Centre,Kisumu
+151,14106,St Elizabeth Chiga Mission Hospital,Kisumu
+152,14120,St Monica Mission Hospital,Kisumu
+153,15808,Bokoli Hospital,Bungoma
+154,15817,Bukaya Health Centre,Kakamega
+155,15825,Bumula  Subcounty Hospital,Bungoma
+156,15827,Bungasi Health Centre,Kakamega
+157,15828,Bungoma Referral Hospital,Bungoma
+158,15836,Butere Hospital,Kakamega
+159,15855,Cheptais Sub Hospital,Bungoma
+160,15860,Chwele Sub District Hospital,Bungoma
+161,15899,Iguhu Hospital,Kakamega
+162,15915,Kakamega General Hospital,Kakamega
+163,15940,Khwisero Health Centre,Kakamega
+164,15950,Kimilili Subcounty  Hospital,Bungoma
+165,15961,Likuyani Sub-County Hospital,Kakamega
+166,15965,Lugulu Friends Mission Hospital,Bungoma
+167,15969,Lumakanda Hospital,Kakamega
+168,15983,Mabusi Health Centre,Kakamega
+169,15991,Makunga Rhdc,Kakamega
+170,15996,Malava Hospital,Kakamega
+171,15999,Manyala Sub-County  Hospital,Kakamega
+172,16005,Matete Health Centre,Kakamega
+173,16010,Mautuma Sub Hospital,Kakamega
+174,16025,Mt Elgon District Hospital,Bungoma
+175,16030,Mukumu Hospital,Kakamega
+176,16035,Mumias Model Health Centre,Kakamega
+177,16037,Matungu Sub-county Hospital,Kakamega
+178,16061,Naitiri Sub-District Hospital,Bungoma
+179,16065,Namasoli Health Centre,Kakamega
+180,16078,Navakholo Sub-District Hospital,Kakamega
+181,16107,Shibwe Sub-County Hospital,Kakamega
+182,16126,Sinoko Dispensary (Bungoma East),BUNGOMA
+183,16130,Sirisia Hospital,Bungoma
+184,16141,St Mary's Hospital (Mumias),Kakamega
+185,16161,Webuye Hospital,Bungoma
+186,16662,LVCT Health -Kisumu,Kisumu
+187,17596,Shinyalu Model Health Centre,Kakamega
+188,22582,KEMRI medical Clinic,Kisumu
+189,10049,Baricho Health Centre,Kirinyaga
+190,10110,Difathas Health Centre,Kirinyaga
+191,10233,Gatundu District Hospital,Kiambu
+192,10338,Igegania Sub-District Hospital,Kiambu
+193,10378,Jkuat Hospital,Kiambu
+194,10459,Kandara sub hospital,Muranga
+195,10470,Kangema Sub-District Hospital,Muranga
+196,10520,Kerugoya District Hospital,Kirinyaga
+197,10539,Kiambu Referal Hospital,Kiambu
+198,10565,Kianyaga Sub-District Hospital,Kirinyaga
+199,10588,Kigumo Sub Hospital (Muranga South),Muranga
+200,10602,Kijabe (AIC) Hospital,Kiambu
+201,10603,Kikuyu (PCEA) Hospital,Kiambu
+202,10609,Kimbimbi Sub-District Hospital,Kirinyaga
+203,10627,Kiria-Ini Mission Hospital,Muranga
+204,10639,Kirwara Sub District,Muranga
+205,10686,Maragua District Hospital,Muranga
+206,10698,Mary Help of The Sick Hospital,Kiambu
+207,10738,Mt Kenya (ACK) Hospital,Kirinyaga
+208,10765,St Mulumba Mission Hospital,Kiambu
+209,10777,Murang'a District Hospital,Muranga
+210,10782,Muriranjas Sub-District Hospital,Muranga
+211,10808,Mwea Mission (Our Lady of Lourdes) Hospital,Kirinyaga
+212,10825,Nazareth Hospital,Kiambu
+213,10994,Sagana Sub-County Hospital,Kirinyaga
+214,11092,Thiba Health Centre,Kirinyaga
+215,11094,Thika Level 5 Hospital,Kiambu
+216,11104,Tigoni District Hospital,Kiambu
+217,12255,Kauwi Sub Hospital,Kitui
+218,12366,Kitui referral Hospital,Kitui
+219,12420,Kyuso Sub Hospital,Kitui
+220,12523,Migwani Sub Hospital,Kitui
+221,12587,Muthale Mission Hospital,Kitui
+222,12603,Mutomo Sub Hospital,Kitui
+223,12604,Our Lady Of Lourdes Mutomo Hospital,Kitui
+224,12626,Mwingi Sub Hospital,Kitui
+225,13540,Ekerenyo Sub-District Hospital,Nyamira
+226,13678,Masaba District Hospital,Nyamira
+227,13692,Kijauri Sub District Hospital,Nyamira
+228,13766,Manga District Hospital,Nyamira
+229,13912,Nyamira Refferal Hospital,Nyamira
+230,14179,Nandi Hills Hospital,Nandi
+231,14369,Chepterwai Sub-County Hospital,Nandi
+232,14623,Kabiyet Sub Hospital,Nandi
+233,14704,Kapkangani Health Centre,Nandi
+234,14749,Kapsabet Referral Hospital,Nandi
+235,14792,Kaptumo Sub-County Hospital,Nandi
+236,15181,Meteitei Sub-District Hospital,Nandi
+237,15229,Mosoriot Sub Hospital,Nandi
+238,15795,Alupe Sub-District Hospital,Busia
+239,15798,Amukura Health Centre,Busia
+240,15823,Bumala A Health Centre,Busia
+241,15824,Bumala B Health Centre,Busia
+242,15834,Busia Refferal Hospital,Busia
+243,15939,Khunyangu Sub-District Hospital,Busia
+244,16029,Mukhobola Health Centre,Busia
+245,16066,Nambale Sub Hospital,Busia
+246,16073,Holy Family Nangina Hospital,Busia
+247,16091,Port Victoria Hospital,Busia
+248,16128,Sio Port District Hospital,Busia
+249,16150,Teso District Hospital,Busia
+250,16991,Katulani Sub Hospital (Kitui),Kitui
+251,12601,Mutitu Sub County Hospital,Kitui
+252,12340,Kisasi Health Centre (Kitui),Kitui
+253,10100,Consolata Mission Hospital (Mathari),Nyeri
+254,10485,Karatina District Hospital,Nyeri
+255,10739,Mt. Kenya District Hospital,Nyeri
+256,10750,Mugunda Mission Dispensary,Nyeri
+257,10763,Mukurweini District Hospital,Nyeri
+258,10809,Mweiga Health Centre,Nyeri
+259,10822,Naromoru Health Centre,Nyeri
+260,10903,Nyeri Provincial General Hospital (PGH),Nyeri
+261,10922,Othaya Sub-District Hospital,Nyeri
+262,11124,Tumutumu (PCEA) Hospital,Nyeri
+263,12004,Embu Provincial General Hospital,Embu
+264,12413,Consolata Kyeni Hospital,Embu
+265,12719,Runyenjes District Hospital,Embu
+266,12870,Amurt Health Centre,Nairobi
+267,12876,Babadogo Health Centre,Nairobi
+268,12879,Bahati Health Centre,Nairobi
+269,12881,Baraka Dispensary (Nairobi),Nairobi
+270,12885,Blue House (AHF) Dispensary,Nairobi
+271,12905,Coptic Hospital (Ngong Road),Nairobi
+272,12907,Cotolengo Centre,Nairobi
+273,12912,Dandora II Health Centre,Nairobi
+274,12929,Dreams Centre Dispensary (Langata),Nairobi
+275,12935,Embakasi Health Centre,Nairobi
+276,12942,Family Care Medical Centre & Maternity,Nairobi
+277,12950,Gertrudes Childrens Hospital,Nairobi
+278,12963,Gsu Hq Dispensary (Ruaraka),Nairobi
+279,12974,Huruma Lions Dispensary,NAIROBI
+280,12984,Jamaa Mission Hospital,Nairobi
+281,12988,Jericho Health Centre,Nairobi
+282,12997,Kahawa West Health Centre,Nairobi
+283,13000,Kamiti Prison Hospital,Nairobi
+284,13001,Kangemi Health Centre,Nairobi
+285,13003,Karen Health Centre,NAIROBI
+286,13006,Kariobangi Health Centre,Nairobi
+287,13010,Kasarani Health Centre,Nairobi
+288,13015,Kayole I Health Centre,NAIROBI
+289,13016,Kayole II Sub-District Hospital,Nairobi
+290,13017,Soweto Kayole Phc Health Centre,Nairobi
+291,13019,Kemri VCT,Nairobi
+292,13023,Kenyatta National Hospital,Nairobi
+293,13028,Kibera Community Health Centre,Nairobi
+294,13029,Kibera D O Dispensary,Nairobi
+295,13030,Kibera South Health Centre,Nairobi
+296,13050,Liverpool VCT,Nairobi
+297,13053,Lunga Lunga Health Centre,Nairobi
+298,13056,Makadara Health Centre,Nairobi
+299,13074,The Mater Hospital Mukuru,Nairobi
+300,13076,Mathari Hospital,Nairobi
+301,13077,Mathare North Health Centre,Nairobi
+302,13080,Mbagathi District Hospital,Nairobi
+303,13087,Memorial Hospital,Nairobi
+304,13101,Mukuru Mmm Clinic,Nairobi
+305,13105,Mutuini Sub-District Hospital,NAIROBI
+306,13121,Ngaira Rhodes Dispensary,Nairobi
+307,13131,Nyumbani Diagnostic Laboratory and Medical Clinic,Nairobi
+308,13155,Pumwani Majengo Dispensary,NAIROBI
+309,13156,Pumwani Maternity Hospital,Nairobi
+310,13161,Nairobi Remand  Prison Health Centre,Nairobi
+311,13165,Riruta Health Centre,Nairobi
+312,13173,Reuben Mukuru Health Centre,Nairobi
+313,13180,Sex Workers Operation Project (Swop),Nairobi
+314,13186,Silanga Dispensary,Nairobi
+315,13189,Sos Dispensary,Nairobi
+316,13193,Special Treatment Clinic,Nairobi
+317,13202,St Francis Community  Hospital,Nairobi
+318,13208,St Joseph Mukasa Dispensary,Nairobi
+319,13218,St Mary's Mission Hospital,Nairobi
+320,13220,EDARP Donholm Clinic,Nairobi
+321,13234,Tabitha Medical Clinic,Nairobi
+322,13239,Uhuru Camp Dispensary (O P Admin Police),Nairobi
+323,13240,Umoja Health Centre,NAIROBI
+324,13242,University of Nairobi Dispensary,Nairobi
+325,13246,Uzima Dispensary,Nairobi
+326,13258,Westlands Health Centre,Nairobi
+327,14259,Bissil Health Centre,KAJIADO
+328,14652,Kajiado Referral Hospital,Kajiado
+329,14950,Kitengela Sub-County Hospital,Kajiado
+330,15051,Loitokitok Sub-County Hospital,Kajiado
+331,15294,Namanga Health Centre,KAJIADO
+332,15351,Ngong Sub-District Hospital,Kajiado
+333,15434,Oltepesi Dispensary,Kajiado
+334,15440,Ongata Rongai Health Centre,Kajiado
+335,16464,Ishiara Sub-District Hospital,Embu
+336,16466,Kiritiri Health Centre,Embu
+337,16467,Mbeere District Hospital,Embu
+338,16667,Beacon of Hope Clinic (Kajiado),Kajiado
+339,16816,Narumoru Catholic Dispensary,Nyeri
+340,17411,Mama Lucy Kibaki Hospital -Embakasi,Nairobi
+341,18463,Mukuru Health Centre,NAIROBI
+342,21287,Refuge point (Mapendo),Nairobi
+343,10171,Engineer District Hospital,Nyandarua
+344,10509,Kasuku Health Centre,Nyandarua
+345,10681,Manunga Health Centre,Nyandarua
+346,10829,Ndaragwa Health Centre,Nyandarua
+347,10887,North Kinangop Catholic Hospital,Nyandarua
+348,10890,Nyahururu District Hospital,Laikipia
+349,10916,JM Kariuki Memorial Hospital (Olkalou),Nyandarua
+350,11258,Bomu Medical Hospital (Changamwe),Mombasa
+351,11273,Cdc Ganjoni Dispensary,Mombasa
+352,11289,Coast Province General Hospital,Mombasa
+353,11304,Diani Health Centre,Kwale
+354,11395,Shimo-La Tewa Health Centre (GK Prison),Mombasa
+355,11434,Jocham Hospital,Mombasa
+356,11472,Kikoneni Health Centre,Kwale
+357,11480,Kinango Hospital,Kwale
+358,11507,Kwale District Hospital,Kwale
+359,11520,Likoni Catholic Dispensary,Mombasa
+360,11522,Likoni District Hospital,Mombasa
+361,11526,Lungalunga  Sub Hospital,Kwale
+362,11538,Magongo (MCM) Dispensary,Mombasa
+363,11585,Mazeras Health centre,Kwale
+364,11600,Mewa Hospital,Mombasa
+365,11613,Mikindani (MCM) Dispensary,MOMBASA
+366,11614,Mikindani Catholic Dispensary,Mombasa
+367,11615,Mikindani Medical Clinic,MOMBASA
+368,11629,Mkongani Health Centre,Kwale
+369,11655,Msambweni Refferal Hospital,Kwale
+370,11669,Mtongwe  Dispensary,Mombasa
+371,11679,Mvita Dispensary,MOMBASA
+372,11740,Port Reitz SubCounty Hospital,Mombasa
+373,11768,Samburu Health Centre,Kwale
+374,11853,Tiwi RHTC,Kwale
+375,11861,Tudor District Hospital (Mombasa),Mombasa
+376,11879,Vanga Health Centre,Kwale
+377,14555,Huruma District Hospital,Uasin Gishu
+378,14841,Kesses Health Centre,Uasin Gishu
+379,15007,Lamuria Dispensary (Laikipia East),LAIKIPIA
+380,15204,Moi Teaching Refferal Hospital,Uasin Gishu
+381,15205,Moi University Health Centre,Uasin Gishu
+382,15209,Moi's Bridge Health Centre,Uasin Gishu
+383,15304,Nanyuki Cottage Hospital,LAIKIPIA
+384,15305,Nanyuki District Hospital,Laikipia
+385,15325,Ndindika Health Centre,Laikipia
+386,15463,Pioneer Health Centre,Uasin Gishu
+387,15502,Rumuruti District Hospital,Laikipia
+388,15623,Soy Health Centre,Uasin Gishu
+389,15753,Turbo Sub Hospital,Uasin Gishu
+390,15758,Uasin Gishu District Hospital,Uasin Gishu
+391,15788,Ziwa Sub-District Hospital,Uasin Gishu
+392,15866,Ebusiratsi Health Centre,VIHIGA
+393,15876,Emuhaya Sub Referral Hospital,Vihiga
+394,15894,Hamisi Sub Referral Hospital,Vihiga
+395,15913,Jumuia Friends Hospital Kaimosi,Vihiga
+396,15946,Kima Mission Hospital,Vihiga
+397,16098,Sabatia Health Centre,Vihiga
+398,16157,Vihiga Referral Hosptial,Vihiga
+399,16345,St Ladislaus Dispensary,Uasin Gishu
+400,16347,Burnt Forest Rhdc (Eldoret East),Uasin Gishu
+401,16547,Kinondo Kwetu Community Dispensary,Kwale
+402,18210,Mlaleo CDF Health Centre,Mombasa
+403,18212,Kenya Ports Authority,Mombasa
+404,18804,Ahf Soko Clinic,Mombasa
+405,24096,TUMAINI CHILDRENS' HOME (NANYUKI),LAIKIPIA
+406,14404,Doldol Sub District Hospital,Laikipia
+407,19606,Mrima CDF Health Cenre,MOMBASA
+408,11254,Bokole CDF Dispensary,MOMBASA
+409,11264,Bura Sub-County  Hospital,Tana River
+410,11385,Garsen Health Centre,Tana River
+411,11411,Hola referal Hospital,Tana River
+412,11641,Moi Referral  Hospital Voi,Taita Taveta
+413,11695,Mwatate Sub-County Hospital,Taita Taveta
+414,11711,Ngao Sub-County Hospital,Tana River
+415,11817,St Joseph's Shelter of Hope,Taita Taveta
+416,11840,Taveta Sub Hospital,Taita Taveta
+417,11906,Wesu Sub Hospital,Taita Taveta
+418,11970,Chogoria (PCEA) Hospital,Tharaka Nithi
+419,11973,Chuka Refferal Hospital,Tharaka Nithi
+420,12034,Gatunga Health Centre,THARAKA NITHI
+421,12132,Kajuki Health Centre,THARAKA NITHI
+422,12445,Magutuni District Hospital,THARAKA NITHI
+423,12589,Muthambi Health Centre,THARAKA NITHI
+424,12769,St Orsola Mission Hospital,Tharaka Nithi
+425,12795,Tharaka District Hospital,Tharaka Nithi
+426,13298,Balambala Sub-District Hospital,GARISSA
+427,13316,Dadaab Sub-County Hospital,GARISSA
+428,13339,Bura District Hospital,GARISSA
+429,13346,Garissa Referral Hospital,Garissa
+430,13365,Hulugho Sub-District Hospital,GARISSA
+431,13406,Ijara District Hospital -Masalani,Garissa
+432,13411,Modogashe Sub-County Hospital,GARISSA
+433,13471,Akala Health Centre,Siaya
+434,13476,Ambira Sub-County Hospital,Siaya
+435,13496,Bar Agulu Dispensary,SIAYA
+436,13507,Bondo District Hospital,Siaya
+437,13527,Christamarrianne Hospital,KISII
+438,13564,Gesusu Sub-Referral District Hospital,Kisii
+439,13588,Got Agulu Sub-District Hospital,Siaya
+440,13594,Gucha Sub Referral Hospital,Kisii
+441,13620,Iranda Subcounty Referal Hospital,Kisii
+442,13631,Iyabe District Hospital (Kisii South),Kisii
+443,13673,Bomachoge Borabu  Sub Refferal Hospital,Kisii
+444,13680,Keumbu S.C.Refferal Hospital,Kisii
+445,13703,Kisii Teaching and Referal Hospital (Level 6),Kisii
+446,13739,St Elizabeth Lwak Mission Health Centre,Siaya
+447,13747,Madiany Sub-County  Hospital,Siaya
+448,13760,Malanga Health Centre,Siaya
+449,13772,Marani District Hospital,Kisii
+450,13847,Nduru Sub Referral Hospital,Kisii
+451,13891,Nyamache Sub Referral Hospital,Kisii
+452,13987,Ong'ielo Model Health Centre,Siaya
+453,14063,Rwambwa Sub Hospital,Siaya
+454,14080,Siaya Referral Hospital,Siaya
+455,14085,Sigomere Sub-County Hospital,Siaya
+456,14139,Tabaka Mission Hospital,Kisii
+457,14156,Ukwala Sub Hospital,Siaya
+458,14164,Usigu Health Centre,Siaya
+459,14165,Uyawi Hospital,Siaya
+460,14175,Yala Sub-County Hospital,Siaya
+461,14294,Chebiemit Subcounty Hospital,Elgeyo-Marakwet
+462,14346,Chepkorio Health Centre,Elgeyo-Marakwet
+463,14586,Iten Referral Hospital,Elgeyo-Marakwet
+464,14767,Kapsowar (AIC) Hospital,Elgeyo-Marakwet
+465,15126,Samburu Referral Hospital,Samburu
+466,15738,Tot Sub-county hospital,Elgeyo-Marakwet
+467,15769,Catholic Hospital Wamba,Samburu
+468,13550,Etago Sub-County Hospital,KISII
+469,14228,Baragoi Sub-County Hospital,SAMBURU
+470,11237,Bamba Sub-County Hospital,Kilifi
+471,11383,Ganze Health Centre,Kilifi
+472,11401,Gongoni Health Centre,KILIFI
+473,11474,Kilifi Hospital,Kilifi
+474,11555,Malindi Sub  Hospital,Kilifi
+475,11563,Marereni Dispensary,KILIFI
+476,11566,Mariakani Sub-county Hospital,Kilifi
+477,11672,Mtwapa Health Centre,Kilifi
+478,11748,Rabai Rural Health Demonstration Centre,Kilifi
+479,11818,St Luke's (ACK) Hospital Kaloleni,Kilifi
+480,11881,Vipingo Rural Demonstration Health Centre,Kilifi
+481,11912,Oasis Medical Centre,Kilifi
+482,11936,Athi River Health Centre,Machakos
+483,11955,Bishop Kioko Catholic Hospital,Machakos
+484,11976,Consolata Hospital (Nkubu),Meru
+485,11977,Cottolengo Mission Hospital,Meru
+486,12041,Githongo District Hospital,Meru
+487,12174,Kangeta heaith centre,Meru
+488,12177,Kangundo Sub Hospital,Machakos
+489,12181,Kanyakine District Hospital,Meru
+490,12215,Katangi Health Centre,Machakos
+491,12230,Kathiani  District Hospital,Machakos
+492,12303,St Theresa Hospital (Kiirua),Meru
+493,12438,Machakos Level 5 Hospital,Machakos
+494,12475,Masii Health Centre,Machakos
+495,12476,Masinga Sub Hospital,Machakos
+496,12488,Matuu District Hospital,Machakos
+497,12492,Maua Methodist Hospital,Meru
+498,12516,Meru District Hospital,Meru
+499,12591,Muthara Sub-District Hospital,Meru
+500,12605,Mutuati Sub-District Hospital,Meru
+501,12618,Mwala Subcounty Hospital,Machakos
+502,12657,Nguluni Health Centre,Machakos
+503,12684,Nyambene District Hospital,Meru
+504,12802,Timau Sub-District Hospital,Meru
+505,13402,Mandera referral Hospital,Mandera
+506,14224,Bahati District Hospital,Nakuru
+507,14379,Cherangany Sub Hospital,TRANS NZOIA
+508,14424,Dundori Health Centre,NAKURU
+509,14431,Elburgon Sub-District Hospital,Nakuru
+510,14455,Endebess Sub Hospital,TRANS NZOIA
+511,14485,Ewaso Ngiro Health Centre,Narok
+512,14510,Gilgil Sub-County Hospital,Nakuru
+513,14753,Kapsara Sub  Hospital,TRANS NZOIA
+514,14836,Keringet Sub Hospital,Nakuru
+515,14947,Kitale  hospital,TRANS NZOIA
+516,15003,Kwanza Sub Hospital,TRANS NZOIA
+517,15108,Mai Mahiu Health Centre,NAKURU
+518,15156,Mau Narok Health Centre,NAKURU
+519,15212,Molo District Hospital,Nakuru
+520,15277,Nairagie-Enkare Health Centre,Narok
+521,15280,Naivasha District Hospital,Nakuru
+522,15288,Nakuru Provincial General Hospital (PGH),Nakuru
+523,15311,Narok Referral Hospital,Narok
+524,15358,Njoro Sub-County Hospital,Nakuru
+525,15398,Olenguruone Sub-District Hospital,Nakuru
+526,15423,Ololulunga sub Hospital,Narok
+527,15495,Rongai Health Centre,NAKURU
+528,15654,St Mary's Hospital (Gilgil),Nakuru
+529,15678,Subukia Sub-county Hospital,Nakuru
+530,15739,Transmara District Hospital,Narok
+531,16234,Miathene District Hospital,Meru
+532,16683,Kuresoi Health Centre,Nakuru
+533,21906,Nakuru west central store,Nakuru
+534,15508,Saboti Sub County Hospital,TRANS NZOIA
+535,20005,Mogotio Baringo Sub-county Hospital,NAKURU
+536,15009,Langa Langa Hospital,NAKURU
+537,14926,Kiptangwanyi H/C,NAKURU
+538,14801,Karagita Health Centre,NAKURU
+539,15282,Naivasha (AIC) Medical Centre,NAKURU
